@@ -26,8 +26,8 @@ This is will two options - manual sync, and automatic sync.
 	curl -F 'image=@/tmp/g.png' localhost:8088/img/
 
 
-![Add App to ArgoCD] (https://github.com/ashyshka/AsciiArtify/blob/main/doc/MVP_Add_App.gif)
-![Acton ArgoCD App with Manual Sync with changing some fil.e in repo] (https://github.com/ashyshka/AsciiArtify/blob/main/doc/MVP_Manual_Sync.gif)
-![Acton ArgoCD App with Automatic Sync with changing some fil.e in repo] (https://github.com/ashyshka/AsciiArtify/blob/main/doc/MVP_Auto_Sync.gif)
+![Add App to ArgoCD](https://github.com/ashyshka/AsciiArtify/blob/main/doc/MVP_Add_App.gif)
+![Acton ArgoCD App with Manual Sync with changing some fille in repo](https://github.com/ashyshka/AsciiArtify/blob/main/doc/MVP_Manual_Sync.gif)
+![Acton ArgoCD App with Automatic Sync with changing some fille in repo](https://github.com/ashyshka/AsciiArtify/blob/main/doc/MVP_Auto_Sync.gif)
 
 Known Issues: Sometimes, after changing `API Gateway Service type` to correct value and `Sync` - we can see react ArgoCD immediately, but this is looks like Out Of Sync. Thats Ok - just to click on the  `Refresh` button.
